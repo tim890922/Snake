@@ -1,0 +1,15 @@
+<template>
+  <div class="header">score:{score}</div>
+
+  <div class="game-container">
+    <template for:each={gameBlocks} for:item="block">
+      <div class={block.class} key={block.id}>&nbsp;</div>
+    </template>
+  </div>
+  <button onclick={startGame}>start</button>
+
+
+  <footer>
+    design by Tim
+  </footer>
+</template>

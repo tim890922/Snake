@@ -1,0 +1,32 @@
+.header{
+    background-color: darkgrey;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.game-container {
+    height: 200px;
+    width: 500px;
+    background-color: blanchedalmond;
+}
+
+.game-container div{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(198, 218, 198);
+    display: inline-block ;
+    margin: 0px;
+    padding: 0px;
+}
+
+.snake {
+    background-color: rgb(7, 124, 7) !important;
+    
+}
+
+.food{
+    background-color: red !important;
+    border-radius:10px 
+}
+
